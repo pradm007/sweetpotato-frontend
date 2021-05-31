@@ -1,0 +1,80 @@
+body, ul, li, h1, h2, a, p {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+}
+
+body {
+    position: static;
+}
+
+header {
+    position: static;
+    background-color: #f8f8f8;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+header h1 {
+    border: 5px solid plum;
+    padding: 8px 10px;
+    color: purple;
+    display: inline-block;
+    border-radius: 40px;
+    font-size: medium;
+}
+
+section {
+    position: relative;
+    top: 110px;
+}
+
+section .background img {
+    max-width: auto;
+    width: auto;
+    max-height: 700px;
+    margin-left: 500px;
+}
+
+section .description {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 500px;
+}
+
+section .description .welcome-greeting {
+    font-size: 1.4em;
+}
+
+section .description .sweet-potato-span {
+    font-size: 1.6em;
+    color: purple;
+    font-weight: bold;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+nav li {
+    width: 33%;
+    display: inline-block;
+    font-size: 15px;
+}
+
+nav li a {
+    color: blueviolet;
+}
